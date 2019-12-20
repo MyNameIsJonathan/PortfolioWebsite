@@ -1,3 +1,11 @@
+:root {
+  --tan: #fbe8a6;
+  --orange: #f4976c;
+  --dark-blue: #303c6c;
+  --medium-blue: #b4dfe6;
+  --light-blue: #d3fdff;
+}
+
 html,
 body {
   height: 100%;

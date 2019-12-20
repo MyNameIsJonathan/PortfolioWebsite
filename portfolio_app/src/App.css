@@ -1,10 +1,21 @@
 .welcome {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 7em;
   height: 100%;
+  background-color: var(--light-blue);
 }
 
 .row {
   width: 100%;
+}
+
+.name-container {
+  background-color: var(--orange);
+  border-radius: 40px;
+}
+
+.name {
+  font-size: 10em;
+  color: var(--dark-blue);
+  margin: 60px 0;
 }
