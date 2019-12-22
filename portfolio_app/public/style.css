@@ -1,9 +1,30 @@
+/* LIGHT BLUE */
+/* :root {
+  --dark: #0f1215;
+  --light: #bce6ff;
+  --lightest: #efffff;
+  --light-dark: #8bb4cc;
+} */
+
+/* PINK */
+/* :root {
+  --dark: #0d0909;
+  --light: #f4abaa;
+} */
+
+/* PURPLE ?? */
+/* :root {
+  --dark: #0a0a0d;
+  --light: #dde4ff;
+  /* --light: #c9ecff;
+} */
+
 :root {
-  --tan: #fbe8a6;
-  --orange: #f4976c;
-  --dark-blue: #303c6c;
-  --medium-blue: #b4dfe6;
-  --light-blue: #d3fdff;
+  --blue: #0c2431;
+  --green: #194a50;
+  --orange: #d37556;
+  --pink: #d8a28c;
+  --white: #e1dad2;
 }
 
 html,

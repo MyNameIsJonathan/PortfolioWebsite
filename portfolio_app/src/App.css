@@ -1,8 +1,12 @@
 .welcome {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  height: 100%;
-  background-color: var(--light-blue);
+  height: 100vh;
+  background-color: var(--white);
+}
+
+.welcome-row {
+  height: 80%;
 }
 
 .row {
@@ -10,12 +14,33 @@
 }
 
 .name-container {
-  background-color: var(--orange);
-  border-radius: 40px;
+  background-color: var(--blue);
+  height: 100%;
 }
 
 .name {
-  font-size: 10em;
-  color: var(--dark-blue);
+  border-radius: 5px;
+  font-size: 5em;
+  color: var(--blue);
   margin: 60px 0;
+  background-color: var(--dark);
+  /* font-weight: 700; */
+}
+
+.unsearched-node {
+  fill: var(--orange);
+}
+
+.searched-node {
+  fill: var(--pink);
+}
+
+.final-path-node {
+  fill: var(--white);
+}
+
+.field-container {
+  display: inline-flex;
+  flex-direction: row;
+  max-width: 400px;
 }
