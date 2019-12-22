@@ -2,8 +2,10 @@ import React from 'react';
 
 const Node = props => {
   return (
-    <svg width="40" height="40" className={`${props.searchState}-node`}>
-      <circle cx="20" cy="20" r="10" />
+    <svg width="10%" height="10%" className={`${props.searchState}-node`}>
+      <circle cx="50%" cy="50%" r="25%" />
+      {/* THE FOLLOWING WORKS ONLY IN FIREFOX */}
+      {/* <rect x="25%" width="50%" height="50%" rx="15" /> */}
     </svg>
   );
 };

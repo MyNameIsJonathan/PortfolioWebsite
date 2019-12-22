@@ -2,7 +2,7 @@
   text-align: center;
   font-family: 'Roboto', sans-serif;
   height: 100vh;
-  background-color: var(--white);
+  background-color: var(--darkest);
 }
 
 .welcome-row {
@@ -14,33 +14,47 @@
 }
 
 .name-container {
-  background-color: var(--blue);
+  background-color: var(--darkest);
   height: 100%;
 }
 
 .name {
   border-radius: 5px;
   font-size: 5em;
-  color: var(--blue);
+  color: var(--darkest);
   margin: 60px 0;
   background-color: var(--dark);
   /* font-weight: 700; */
 }
 
 .unsearched-node {
-  fill: var(--orange);
+  fill: var(--darker);
 }
 
 .searched-node {
-  fill: var(--pink);
+  fill: var(--lightest);
 }
 
 .final-path-node {
-  fill: var(--white);
+  fill: var(--lightest);
 }
 
 .field-container {
   display: inline-flex;
   flex-direction: row;
-  max-width: 400px;
+  width: min(80vw, 80vh);
+  height: min(80vw, 80vh);
+}
+
+svg {
+  transition: all 0.2s ease-out;
+}
+
+svg:hover {
+  transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  fill: var(--lightest);
 }

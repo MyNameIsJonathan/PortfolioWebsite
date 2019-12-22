@@ -11,6 +11,20 @@ class App extends React.Component {
     this.state = {
       nodes: Array.from({ length: 100 }, x => 'unsearched'),
     };
+
+    // TODO REMOVE -- test
+    for (let i = 11; i < 19; i += 1) {
+      this.state.nodes[i] = 'searched';
+    }
+    for (let i = 16; i < 90; i += 10) {
+      this.state.nodes[i] = 'searched';
+    }
+    this.state.nodes[85] = 'searched';
+    this.state.nodes[84] = 'searched';
+    this.state.nodes[83] = 'searched';
+    this.state.nodes[82] = 'searched';
+    this.state.nodes[72] = 'searched';
+    this.state.nodes[62] = 'searched';
   }
   // const props = useSpring({
   //   opacity: 1,

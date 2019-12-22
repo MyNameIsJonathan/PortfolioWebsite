@@ -6,25 +6,30 @@
   --light-dark: #8bb4cc;
 } */
 
+/* :root {
+  --darkest: #0c2431;
+  --darker: #194a50;
+  --middle: #d37556;
+  --lighter: #d8a28c;
+  --lightest: #e1dad2;
+} */
+
 /* PINK */
 /* :root {
-  --dark: #0d0909;
-  --light: #f4abaa;
+  --darkest: #393232;
+  --darker: #4d4545;
+  --middle: #ed8d8d;
+  --lighter: #8d6262;
+  --lightest: #f0d6d6;
 } */
 
-/* PURPLE ?? */
-/* :root {
-  --dark: #0a0a0d;
-  --light: #dde4ff;
-  /* --light: #c9ecff;
-} */
-
+/* PINK 2 */
 :root {
-  --blue: #0c2431;
-  --green: #194a50;
-  --orange: #d37556;
-  --pink: #d8a28c;
-  --white: #e1dad2;
+  --darkest: #3b1f1e;
+  --darker: #674745;
+  --middle: #c35655;
+  --lighter: #fa8682;
+  --lightest: #ffb7b1;
 }
 
 html,
