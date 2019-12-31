@@ -1,30 +1,5 @@
-.welcome {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  height: 100vh;
-  background-color: var(--darkest);
-}
-
-.welcome-row {
-  height: 80%;
-}
-
-.row {
-  width: 100%;
-}
-
-.name-container {
-  background-color: var(--darkest);
-  height: 100%;
-}
-
-.name {
-  border-radius: 5px;
-  font-size: 5em;
-  color: var(--darkest);
-  margin: 60px 0;
-  background-color: var(--dark);
-  /* font-weight: 700; */
+.main {
+  margin-top: 2vh;
 }
 
 .unsearched-node {
@@ -32,7 +7,7 @@
 }
 
 .searched-node {
-  fill: var(--lightest);
+  fill: var(--secondary);
 }
 
 .final-path-node {
@@ -42,8 +17,8 @@
 .field-container {
   display: inline-flex;
   flex-direction: row;
-  width: min(80vw, 80vh);
-  height: min(80vw, 80vh);
+  width: 90vw;
+  height: 80vh;
 }
 
 svg {

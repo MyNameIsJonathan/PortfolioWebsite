@@ -23,18 +23,48 @@
   --lightest: #f0d6d6;
 } */
 
-/* PINK 2 */
+/* BLUE -- current best  blue */
+/* :root {
+  --darkest: #2f3a40;
+  --darker: #58646b;
+  --middle: #8bb4cc;
+  --lighter: #bce6ff;
+  --lightest: #efffff;
+} */
+
+/* CORAL -- current best coral */
+/* :root {
+  --darkest: #200000;
+  --darker: #401c18;
+  --middle: #c63d37;
+  --lighter: #ff6f61;
+  --lightest: #ffa18f;
+} */
+
+/* FOR MORE:
+
+1 - light and darkest from:
+https://color.adobe.com/create
+
+2 - others from:
+https://material.io/resources/color/#!/?view.left=0&view.right=1
+*/
+
+/* PINK -- current best pink */
 :root {
-  --darkest: #3b1f1e;
+  /* --darkest: hsl(0, 11%, 4%); */
+  --darkest: #121212;
   --darker: #674745;
   --middle: #c35655;
   --lighter: #fa8682;
   --lightest: #ffb7b1;
+  --secondary: #fbe6e5;
 }
 
 html,
 body {
   height: 100%;
+  background-color: var(--darkest);
 }
 
 #root {
