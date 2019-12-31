@@ -1,35 +1,61 @@
-.main {
-  margin-top: 2vh;
+.welcome-hello {
+  padding: 10vh 0;
+  justify-content: center;
+  font-size: 30vw;
+  color: var(--middle);
+  border: 1px solid var(--middle);
+  border-radius: 3vh;
 }
 
-.unsearched-node {
-  fill: var(--darker);
+nav {
+  background-color: var(--black);
+  height: auto;
 }
 
-.searched-node {
-  fill: var(--secondary);
+.navbar-name {
+  margin: 2vh 0;
+  width: 100%;
+  font-weight: 100;
+  font-size: 70wv;
+  color: var(--light-blue);
 }
 
-.final-path-node {
-  fill: var(--lightest);
+.tab-title {
+  color: var(--light-blue);
+  background-color: var(--black);
 }
 
-.field-container {
-  display: inline-flex;
-  flex-direction: row;
-  width: 90vw;
-  height: 80vh;
+.tabs .tab a {
+  color: var(--light-blue);
+  font-size: 1.2rem;
 }
 
-svg {
-  transition: all 0.2s ease-out;
+.tabs .tab a:hover {
+  color: var(--light-blue);
+  background-color: var(--grey);
+  font-size: 1.2rem;
 }
 
-svg:hover {
-  transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  fill: var(--lightest);
+.tabs .tab a:focus,
+.tabs .tab a.focus.active,
+.tabs .tab a.active {
+  color: var(--light-blue);
+  background-color: var(--black) !important;
+}
+
+.tabs .indicator {
+  background-color: var(--light-blue);
+}
+
+.page-footer {
+  background-color: var(--light-blue);
+  color: var(--black);
+}
+
+.page-footer .footer-copyright {
+  background-color: var(--black);
+}
+
+.black-text {
+  color: var(--black);
 }
