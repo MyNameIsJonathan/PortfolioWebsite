@@ -27,7 +27,7 @@ class Navbar extends React.Component {
             </li>
             <li className="tab col s4">
               <a href="#PageTwo" className="tab-title">
-                NHL Webpage
+                NHL
               </a>
             </li>
             <li className="tab col s4">

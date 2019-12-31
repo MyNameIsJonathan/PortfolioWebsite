@@ -5,7 +5,7 @@ const PageTwo = props => {
     <div id="PageTwo" className="col s12">
       <div className="valign-wrapper">
         <div className="container">
-          <h1 className="welcome-hello valign-wrapper center-align">Two</h1>
+          <h3 className="welcome-hello valign-wrapper center-align">Two</h3>
         </div>
       </div>
     </div>
