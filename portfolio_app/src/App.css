@@ -56,6 +56,40 @@ nav {
   background-color: var(--black);
 }
 
-.black-text {
-  color: var(--black);
+.contact {
+  font-size: 5vw;
+  color: var(--light-blue);
+  margin: 10% 0;
+}
+
+.footer-contact-text {
+  font-size: 2em;
+  margin-left: 5%;
+  text-align: center;
+  height: 100%;
+  display: contents;
+}
+
+.footer-contact-icon {
+  height: auto;
+}
+
+.contact-container {
+  border-radius: 10px;
+  background-color: var(--black);
+  justify-content: center;
+}
+
+svg {
+  height: 100%;
+}
+
+.collection {
+  border: none;
+}
+
+.collection .collection-item {
+  background-color: transparent;
+  border: none;
+  height: 60px;
 }

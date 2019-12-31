@@ -4,6 +4,10 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
+import PageOne from './Components/PageOne';
+import PageTwo from './Components/PageTwo';
+import PageThree from './Components/PageThree';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -16,11 +20,10 @@ class App extends React.Component {
     return (
       <div className="main">
         <Navbar />
-        <div className="valign-wrapper">
-          <div className="container">
-            <h1 className="welcome-hello valign-wrapper center-align">Hello</h1>
-          </div>
-        </div>
+
+        <PageOne />
+        <PageTwo />
+        <PageThree />
         <Footer />
       </div>
     );

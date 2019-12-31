@@ -1,25 +1,42 @@
 import React from 'react';
 
+import { ReactComponent as GitHubLogo } from './github.svg';
+import { ReactComponent as LinkedInLogo } from './linkedin.svg';
+import { ReactComponent as EmailLogo } from './email.svg';
+
 class Footer extends React.Component {
   render() {
     return (
       <footer className="page-footer">
         <div className="container footer-top">
-          <div className="row">
-            <div className="col s3">
-              <h5 className="black-text">Contact</h5>
+          <div className="row valign-wrapper">
+            <div className="col s4 valign-wrapper contact-container">
+              <h5 className="contact">Contact</h5>
             </div>
-            <div className="col s9">
-              <ul>
-                <li>
-                  <i className="material-icons">email</i>
-                  jonathanholson@gmail.com
+            <div className="col s8">
+              <ul className="collection">
+                <li className="collection-item">
+                  <EmailLogo />
+                  {/* jonathanholson@gmail.com */}
+                  <span className="footer-contact-text">
+                    jonathanholson@gmail.com
+                  </span>
                 </li>
-                <li>
-                  <link rel="icon" href="%PUBLIC_URL%/github.svg" />
+                <li className="collection-item">
+                  <span className="footer-contact-icon">
+                    <GitHubLogo />
+                  </span>
+                  <span className="footer-contact-text center-align">
+                    MyNameIsJonathan
+                  </span>
+                  {/* <span className="footer-contact-text">MyNameIsJonathan</span> */}
                 </li>
-                <li>
-                  <link rel="icon" href="%PUBLIC_URL%/linkedin.svg" />
+                <li className="collection-item">
+                  <span className="footer-contact-icon">
+                    <LinkedInLogo />
+                  </span>
+                  <span className="footer-contact-text">Jonathan Olson</span>
+                  {/* <p className="footer-contact-text col s8">Jonathan Olson</p> */}
                 </li>
               </ul>
             </div>
