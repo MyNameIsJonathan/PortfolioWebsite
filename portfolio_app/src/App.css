@@ -27,24 +27,33 @@ svg {
   margin: 2vh 0;
   width: 100%;
   font-weight: 100;
-  font-size: 70wv;
+  text-align: center;
+  font-size: 7vw;
   color: var(--light-blue);
+}
+
+.last-name {
+  background-color: var(--light-blue);
+  color: var(--black);
+  font-weight: 800;
+  padding: 1vh;
+  border-radius: 10px;
 }
 
 .tab-title {
   color: var(--light-blue);
   background-color: var(--black);
+  text-transform: none;
 }
 
 .tabs .tab a {
   color: var(--light-blue);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .tabs .tab a:hover {
   color: var(--light-blue);
   background-color: var(--grey);
-  font-size: 1.2rem;
 }
 
 .tabs .tab a:focus,
@@ -100,7 +109,7 @@ svg {
 .collection .collection-item {
   background-color: transparent;
   border: none;
-  height: 2em;
+  height: 2.5em;
   padding-top: 1px;
   padding-bottom: 1px;
   margin: 10px 0;

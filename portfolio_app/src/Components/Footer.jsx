@@ -19,18 +19,30 @@ class Footer extends React.Component {
                 JonathanHOlson@gmail.com
               </span>
             </li>
-            <li className="collection-item valign-wrapper">
-              <GitHubLogo />
-              <span className="footer-contact-text valign-wrapper">
-                MyNameIsJonathan
-              </span>
-            </li>
-            <li className="collection-item valign-wrapper">
-              <LinkedInLogo />
-              <span className="footer-contact-text valign-wrapper">
-                Jonathan Olson
-              </span>
-            </li>
+            <a
+              href="https://github.com/MyNameIsJonathan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li className="collection-item valign-wrapper">
+                <GitHubLogo />
+                <span className="footer-contact-text valign-wrapper">
+                  MyNameIsJonathan
+                </span>
+              </li>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jonathan-h-olson/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li className="collection-item valign-wrapper">
+                <LinkedInLogo />
+                <span className="footer-contact-text valign-wrapper">
+                  Jonathan Olson
+                </span>
+              </li>
+            </a>
           </ul>
         </div>
         <div className="footer-copyright footer-bottom">
