@@ -12,28 +12,26 @@ class Footer extends React.Component {
           <div className="valign-wrapper contact-container">
             <h5 className="contact">Contact</h5>
           </div>
-          <div className="">
-            <ul className="collection">
-              <li className="collection-item valign-wrapper">
-                <EmailLogo />
-                <span className="footer-contact-text valign-wrapper">
-                  JonathanHOlson@gmail.com
-                </span>
-              </li>
-              <li className="collection-item valign-wrapper">
-                <GitHubLogo />
-                <span className="footer-contact-text valign-wrapper">
-                  MyNameIsJonathan
-                </span>
-              </li>
-              <li className="collection-item valign-wrapper">
-                <LinkedInLogo />
-                <span className="footer-contact-text valign-wrapper flow-text">
-                  Jonathan Olson
-                </span>
-              </li>
-            </ul>
-          </div>
+          <ul className="collection">
+            <li className="collection-item valign-wrapper">
+              <EmailLogo />
+              <span className="footer-contact-text valign-wrapper">
+                JonathanHOlson@gmail.com
+              </span>
+            </li>
+            <li className="collection-item valign-wrapper">
+              <GitHubLogo />
+              <span className="footer-contact-text valign-wrapper">
+                MyNameIsJonathan
+              </span>
+            </li>
+            <li className="collection-item valign-wrapper">
+              <LinkedInLogo />
+              <span className="footer-contact-text valign-wrapper">
+                Jonathan Olson
+              </span>
+            </li>
+          </ul>
         </div>
         <div className="footer-copyright footer-bottom">
           <div className="container center-align">© Jonathan Olson</div>

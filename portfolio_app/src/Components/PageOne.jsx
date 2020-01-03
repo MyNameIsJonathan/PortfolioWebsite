@@ -2,11 +2,11 @@ import React from 'react';
 
 const PageOne = props => {
   return (
-    <div id="PageOne" className="col s12">
+    <div id="PageOne" className="container center-align">
       <div className="valign-wrapper">
-        <div className="container">
-          <h3 className="welcome-hello valign-wrapper center-align">One</h3>
-        </div>
+        <h3 className="welcome-hello valign-wrapper center-align">
+          One two three
+        </h3>
       </div>
     </div>
   );

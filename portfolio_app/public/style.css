@@ -5,13 +5,24 @@
   --light-blue: #bfd7ff;
   --dark-blue: #395380;
   --grey: #29241f;
+  --white2: #d8dde4;
 }
 
-html,
+/* html,
 body {
   height: 100vh;
+  /* background-color: var(--light-blue); */
+
+/* #root {
+  height: 100vh;
+} */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-#root {
-  height: 100vh;
+main {
+  flex: 1 0 auto;
 }

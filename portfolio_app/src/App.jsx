@@ -18,14 +18,17 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="main">
+      <>
         <Navbar />
 
-        <PageOne />
-        <PageTwo />
-        <PageThree />
+        <main>
+          <PageOne />
+          <PageTwo />
+          <PageThree />
+        </main>
+
         <Footer />
-      </div>
+      </>
     );
   }
 }
