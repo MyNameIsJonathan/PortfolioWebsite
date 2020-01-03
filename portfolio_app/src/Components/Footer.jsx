@@ -8,7 +8,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="page-footer">
-        <div className="row valign-wrapper footer-inner">
+        {/* <div className="row valign-wrapper footer-inner">
           <div className="valign-wrapper contact-container">
             <h5 className="contact">Contact</h5>
           </div>
@@ -44,7 +44,7 @@ class Footer extends React.Component {
               </li>
             </a>
           </ul>
-        </div>
+        </div> */}
         <div className="footer-copyright footer-bottom">
           <div className="container center-align">© Jonathan Olson</div>
         </div>

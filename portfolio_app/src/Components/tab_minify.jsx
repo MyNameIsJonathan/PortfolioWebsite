@@ -9,14 +9,45 @@ const Minify = props => {
         </h3>
         <span className="subtitle spotify-green">A Mini Spotify Player</span>
       </div>
-      <div className="minify-container">
-        <img
-          className="minify-gif"
-          src="./assets/Minify.gif"
-          alt="GIF of minify, my mini spotify player application, in use"
-        />
-        <div className="tab-information">
+      <div className="minify-container row">
+        <div className="col s12 l4">
+          <img
+            className="minify-gif"
+            src="./assets/Minify.gif"
+            alt="GIF of minify, my mini spotify player application, in use"
+          />
+        </div>
+        <div className="tab-information col s12 l7">
           <h3 className="spotify-green information">Information</h3>
+          <div className="collection">
+            <div className="collection-item">
+              <span className="information-category spotify-green-background">
+                Technologies:
+              </span>
+              <span className="information-text">
+                React, Spotify API, Express, Google Cloud Platform, Let's
+                Encrypt HTTPS Certificate, and more.
+              </span>
+            </div>
+            <div className="collection-item">
+              <span className="information-category spotify-green-background">
+                Inspiration:
+              </span>
+              <span className="information-text">
+                I've wanted a smaller Spotify application for as long as I can
+                remember but could never find one -- so I buit it.
+              </span>
+            </div>
+            <div className="collection-item">
+              <span className="information-category spotify-green-background">
+                Future Steps:
+              </span>
+              <span className="information-text">
+                Future steps will expand functionality to create a full drop-in
+                replacement Spotify desktop application.
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
