@@ -175,7 +175,11 @@ h3.information {
   justify-content: flex-start;
 }
 
-.nhl-container {
+.top-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .me-container {
@@ -188,6 +192,12 @@ h3.information {
   border-radius: 10px;
 }
 
+.fec-gif {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
 .minify-gif {
   grid-column-start: minify-col-1;
   height: 450px;
@@ -197,6 +207,7 @@ h3.information {
 
 .sdc-cpu-image {
   border-radius: 10px;
+  max-width: 100%;
 }
 
 .tab-information {
@@ -205,13 +216,16 @@ h3.information {
   margin-left: 1vw;
 }
 
+.top-image-container .tab-information {
+  margin-top: 3vh;
+}
+
 .tab-body .collection {
   border: none;
   margin: 2vh 0;
 }
 
 .tab-body .collection .collection-item {
-  padding: 1px auto;
   font-size: 0.65em;
   border: none;
 }
@@ -227,6 +241,21 @@ h3.information {
 @media only screen and (max-width: 600px) {
   .footer-contact-text.valign-wrapper {
     display: none;
+  }
+  .tab-head-container {
+    width: 100%;
+  }
+
+  .tab-head {
+    justify-content: center;
+    width: 100%;
+  }
+  .tab-body .collection .collection-item {
+    padding: 5px;
+  }
+
+  .tab-information {
+    margin-top: 2vh;
   }
 }
 
@@ -268,4 +297,8 @@ h3.information {
 
 .about-me-blue-background {
   background-color: var(--about-me-blue);
+}
+
+#FEC {
+  margin-bottom: 1vh;
 }

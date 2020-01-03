@@ -11,7 +11,7 @@ const NHL = props => {
       </div>
       <div className="nhl-container">
         <div className="tab-information">
-          <h3 className="nhl-orange information">Information</h3>
+          <h3 className="nhl-orange information">information</h3>
         </div>
       </div>
     </div>

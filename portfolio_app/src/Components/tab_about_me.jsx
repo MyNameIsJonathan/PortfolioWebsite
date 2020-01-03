@@ -20,7 +20,7 @@ const AboutMe = props => {
           />
         </div>
         <div className="tab-information col s12 l7 offset-l1">
-          <h3 className="about-me-blue information">About Me</h3>
+          <h3 className="about-me-blue information">jonathan/jay</h3>
           <div className="collection">
             <div className="collection-item">
               <span className="information-category about-me-blue-background">

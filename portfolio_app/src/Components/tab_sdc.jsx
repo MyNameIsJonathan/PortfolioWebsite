@@ -20,7 +20,7 @@ const SDC = props => {
           />
         </div>
         <div className="tab-information col s12 l7 offset-l1">
-          <h3 className="sdc-pink information">Information</h3>
+          <h3 className="sdc-pink information">information</h3>
           <div className="collection">
             <div className="collection-item">
               <span className="information-category sdc-pink-background">
@@ -45,7 +45,14 @@ const SDC = props => {
               <span className="information-category sdc-pink-background">
                 Future Steps:
               </span>
-              <span className="information-text">FILL</span>
+              <span className="information-text">
+                Further work could easily scale vertically (upgrade instances)
+                or horizontally via Cassandra node count increase or server
+                count increase. Request load/duration could be lightened via
+                increased use of compression, further load balancing
+                optimizations, or distributing nodes/serves across different AWS
+                regions.
+              </span>
             </div>
           </div>
         </div>

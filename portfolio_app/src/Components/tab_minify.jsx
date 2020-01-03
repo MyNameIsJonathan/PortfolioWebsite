@@ -18,7 +18,7 @@ const Minify = props => {
           />
         </div>
         <div className="tab-information col s12 l7 offset-l1">
-          <h3 className="spotify-green information">Information</h3>
+          <h3 className="spotify-green information">information</h3>
           <div className="collection">
             <div className="collection-item">
               <span className="information-category spotify-green-background">
