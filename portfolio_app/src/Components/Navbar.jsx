@@ -24,18 +24,28 @@ class Navbar extends React.Component {
               className="tabs"
             >
               <li className="tab col s4">
-                <a href="#PageOne" className="tab-title">
+                <a href="#aboutMe" className="tab-title">
                   home
                 </a>
               </li>
               <li className="tab col s4">
-                <a href="#PageTwo" className="tab-title">
+                <a href="#NHL" className="tab-title">
                   nhl
                 </a>
               </li>
               <li className="tab col s4">
-                <a href="#PageThree" className="tab-title">
+                <a href="#Minify" className="tab-title">
                   minify
+                </a>
+              </li>
+              <li className="tab col s4">
+                <a href="#FEC" className="tab-title">
+                  music player
+                </a>
+              </li>
+              <li className="tab col s4">
+                <a href="#SDC" className="tab-title">
+                  backend
                 </a>
               </li>
             </ul>

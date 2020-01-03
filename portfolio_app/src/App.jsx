@@ -4,9 +4,11 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
-import PageOne from './Components/PageOne';
-import PageTwo from './Components/PageTwo';
-import PageThree from './Components/PageThree';
+import AboutMe from './Components/tab_about_me';
+import NHL from './Components/tab_NHL';
+import Minify from './Components/tab_minify';
+import FEC from './Components/tab_fec';
+import SDC from './Components/tab_sdc';
 
 class App extends React.Component {
   constructor(props) {
@@ -22,9 +24,11 @@ class App extends React.Component {
         <Navbar />
 
         <main>
-          <PageOne />
-          <PageTwo />
-          <PageThree />
+          <AboutMe />
+          <NHL />
+          <Minify />
+          <FEC />
+          <SDC />
         </main>
 
         <Footer />
