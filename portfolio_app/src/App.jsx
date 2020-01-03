@@ -23,7 +23,7 @@ class App extends React.Component {
       <>
         <Navbar />
 
-        <main>
+        <main className="body">
           <AboutMe />
           <NHL />
           <Minify />

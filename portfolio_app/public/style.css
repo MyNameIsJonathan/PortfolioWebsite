@@ -5,17 +5,13 @@
   --light-blue: #bfd7ff;
   --dark-blue: #395380;
   --grey: #29241f;
-  --white2: #d8dde4;
+  --white2: #ffffff;
+  --spotify-green: #1db954;
+  --nhl-orange: #e64a19;
+  --about-me-blue: #1976d2;
+  --sdc-pink: #d32f2f;
+  --fec-green: #689f38;
 }
-
-/* html,
-body {
-  height: 100vh;
-  /* background-color: var(--light-blue); */
-
-/* #root {
-  height: 100vh;
-} */
 
 body {
   display: flex;
@@ -25,4 +21,5 @@ body {
 
 main {
   flex: 1 0 auto;
+  height: auto;
 }

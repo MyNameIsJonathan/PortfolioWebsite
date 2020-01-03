@@ -3,7 +3,8 @@ import M from 'materialize-css';
 
 class Navbar extends React.Component {
   componentDidMount() {
-    M.Tabs.init(this.Tabs, { swipeable: true });
+    M.Tabs.init(this.Tabs);
+    // M.Tabs.init(this.Tabs, { swipeable: true });
   }
 
   render() {
@@ -29,18 +30,18 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="tab col s4">
-                <a href="#NHL" className="tab-title">
-                  nhl
-                </a>
-              </li>
-              <li className="tab col s4">
                 <a href="#Minify" className="tab-title">
                   minify
                 </a>
               </li>
               <li className="tab col s4">
+                <a href="#NHL" className="tab-title">
+                  nhl
+                </a>
+              </li>
+              <li className="tab col s4">
                 <a href="#FEC" className="tab-title">
-                  music player
+                  music
                 </a>
               </li>
               <li className="tab col s4">

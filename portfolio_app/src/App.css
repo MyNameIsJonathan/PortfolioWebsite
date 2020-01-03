@@ -1,25 +1,22 @@
+header {
+  height: fit-content;
+}
+
 nav {
   background-color: var(--black);
   height: auto;
+  padding-top: 1rem;
+  display: inline-block;
 }
 
 svg {
   height: 100%;
 }
 
-.tabs {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.tab-head {
-  justify-content: center;
-  color: var(--middle);
-  font-size: 10vw;
-  border-radius: 3vh;
-  padding: 5vh;
-  margin: 3vh;
+h3.information {
+  padding: 0 0 2vh 0;
+  margin: 0;
+  border-bottom: 2px solid;
 }
 
 .navbar-name {
@@ -39,10 +36,87 @@ svg {
   border-radius: 10px;
 }
 
+.tabs {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .tab-title {
   color: var(--light-blue);
   background-color: var(--black);
   text-transform: none;
+}
+
+.tab-body {
+  width: 70%;
+  margin: auto;
+  margin: 3vh auto;
+}
+
+.tab-head-container {
+  height: fit-content;
+  margin-bottom: 1em;
+  display: block;
+  width: fit-content;
+  margin-bottom: 3vh;
+}
+
+.tab-head {
+  font-size: 10vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--white);
+  border-radius: 10px;
+  padding: 1.5vh;
+}
+
+.subtitle {
+  font-style: italic;
+  color: var(--dark-blue);
+  font-size: 1.5em;
+  text-align: center;
+  display: block;
+}
+
+.sdc-pink {
+  color: var(--sdc-pink);
+}
+
+.sdc-pink-background {
+  background-color: var(--sdc-pink);
+}
+
+.fec-green {
+  color: var(--fec-green);
+}
+
+.fec-green-background {
+  background-color: var(--fec-green);
+}
+
+.spotify-green-background {
+  background-color: var(--spotify-green);
+}
+
+.spotify-green {
+  color: var(--spotify-green);
+}
+
+.nhl-orange-background {
+  background-color: var(--nhl-orange);
+}
+
+.nhl-orange {
+  color: var(--nhl-orange);
+}
+
+.about-me-blue {
+  color: var(--about-me-blue);
+}
+
+.about-me-blue-background {
+  background-color: var(--about-me-blue);
 }
 
 .tabs .tab a {
@@ -60,6 +134,7 @@ svg {
 .tabs .tab a.active {
   color: var(--light-blue);
   background-color: var(--black) !important;
+  display: grid;
 }
 
 .tabs .indicator {
@@ -69,6 +144,7 @@ svg {
 .page-footer {
   background-color: var(--light-blue);
   color: var(--black);
+  padding: 0;
 }
 
 .page-footer .footer-copyright {
@@ -100,9 +176,13 @@ svg {
   justify-content: center;
 }
 
+.row {
+  margin: 0;
+}
+
 .collection {
   border: none;
-  /* min-width: 90vw; */
+  margin: 1vh;
 }
 
 .collection .collection-item {
@@ -122,6 +202,30 @@ svg {
   flex-wrap: wrap;
   margin: 0 5%;
   padding-bottom: 2vh;
+  padding: 0;
+}
+
+.about-me-container {
+}
+
+.nhl-container {
+}
+
+.minify-container {
+  display: grid;
+  grid-template-columns: [minify-col-1] 50% [minify-col-2] 50% [minify-col-end];
+}
+
+.minify-gif {
+  grid-column-start: minify-col-1;
+  height: 450px;
+  width: 270px;
+  border-radius: 10px;
+}
+
+.tab-information {
+  grid-column-start: minify-col-2;
+  font-size: 2em;
 }
 
 @media only screen and (max-width: 600px) {
