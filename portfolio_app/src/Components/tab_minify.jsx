@@ -7,9 +7,9 @@ const Minify = props => {
         <h3 className="tab-head valign-wrapper center-align spotify-green-background">
           minify
         </h3>
-        <span className="subtitle spotify-green">A Mini Spotify Player</span>
+        <span className="subtitle spotify-green">a mini Spotify player</span>
       </div>
-      <div className="minify-container row">
+      <div className="left-image-container row">
         <div className="col s12 l4">
           <img
             className="minify-gif"
@@ -17,7 +17,7 @@ const Minify = props => {
             alt="GIF of minify, my mini spotify player application, in use"
           />
         </div>
-        <div className="tab-information col s12 l7">
+        <div className="tab-information col s12 l7 offset-l1">
           <h3 className="spotify-green information">Information</h3>
           <div className="collection">
             <div className="collection-item">

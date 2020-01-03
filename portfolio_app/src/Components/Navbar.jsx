@@ -46,7 +46,7 @@ class Navbar extends React.Component {
               </li>
               <li className="tab col s4">
                 <a href="#SDC" className="tab-title">
-                  backend
+                  micro
                 </a>
               </li>
             </ul>

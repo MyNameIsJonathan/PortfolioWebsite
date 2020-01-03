@@ -49,7 +49,7 @@ h3.information {
 }
 
 .tab-body {
-  width: 70%;
+  width: 80%;
   margin: auto;
   margin: 3vh auto;
 }
@@ -69,6 +69,7 @@ h3.information {
   color: var(--white);
   border-radius: 10px;
   padding: 1.5vh;
+  width: fit-content;
 }
 
 .subtitle {
@@ -77,46 +78,6 @@ h3.information {
   font-size: 1.5em;
   text-align: center;
   display: block;
-}
-
-.sdc-pink {
-  color: var(--sdc-pink);
-}
-
-.sdc-pink-background {
-  background-color: var(--sdc-pink);
-}
-
-.fec-green {
-  color: var(--fec-green);
-}
-
-.fec-green-background {
-  background-color: var(--fec-green);
-}
-
-.spotify-green-background {
-  background-color: var(--spotify-green);
-}
-
-.spotify-green {
-  color: var(--spotify-green);
-}
-
-.nhl-orange-background {
-  background-color: var(--nhl-orange);
-}
-
-.nhl-orange {
-  color: var(--nhl-orange);
-}
-
-.about-me-blue {
-  color: var(--about-me-blue);
-}
-
-.about-me-blue-background {
-  background-color: var(--about-me-blue);
 }
 
 .tabs .tab a {
@@ -207,17 +168,24 @@ h3.information {
   padding: 0;
 }
 
-.about-me-container {
+.left-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .nhl-container {
 }
 
-.minify-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-start;
+.me-container {
+  width: 270px;
+}
+
+.me-image {
+  display: block;
+  width: 270px;
+  border-radius: 10px;
 }
 
 .minify-gif {
@@ -227,20 +195,25 @@ h3.information {
   border-radius: 10px;
 }
 
+.sdc-cpu-image {
+  border-radius: 10px;
+}
+
 .tab-information {
   grid-column-start: minify-col-2;
   font-size: 2em;
+  margin-left: 1vw;
 }
 
 .tab-body .collection {
   border: none;
-  margin: 1vh;
+  margin: 2vh 0;
 }
 
 .tab-body .collection .collection-item {
   padding: 1px auto;
   font-size: 0.65em;
-  border-color: var(--spotify-green);
+  border: none;
 }
 
 .information-category {
@@ -255,4 +228,44 @@ h3.information {
   .footer-contact-text.valign-wrapper {
     display: none;
   }
+}
+
+.sdc-pink {
+  color: var(--sdc-pink);
+}
+
+.sdc-pink-background {
+  background-color: var(--sdc-pink);
+}
+
+.fec-green {
+  color: var(--fec-green);
+}
+
+.fec-green-background {
+  background-color: var(--fec-green);
+}
+
+.spotify-green-background {
+  background-color: var(--spotify-green);
+}
+
+.spotify-green {
+  color: var(--spotify-green);
+}
+
+.nhl-orange-background {
+  background-color: var(--nhl-orange);
+}
+
+.nhl-orange {
+  color: var(--nhl-orange);
+}
+
+.about-me-blue {
+  color: var(--about-me-blue);
+}
+
+.about-me-blue-background {
+  background-color: var(--about-me-blue);
 }
