@@ -25,8 +25,8 @@ const Minify = props => {
                 Technologies:
               </span>
               <span className="information-text">
-                React, Spotify API, Express, Google Cloud Platform, Let's
-                Encrypt HTTPS Certificate, and more.
+                React, Spotify API, Express, Google Cloud Platform, HTTPS
+                Encrypted Communication, and more.
               </span>
             </div>
             <div className="collection-item">
@@ -35,7 +35,11 @@ const Minify = props => {
               </span>
               <span className="information-text">
                 I've wanted a smaller Spotify application for as long as I can
-                remember but could never find one -- so I buit it.
+                remember but could never find one -- so I buit it. This app
+                allows users to control playback (play, pause, skip, jump back,
+                scrub, save song to library, toggle repeat) and search Spotify
+                for songs, albums, artists, and playlists and was packaged via
+                Electron.js for distribution.
               </span>
             </div>
             <div className="collection-item">
@@ -44,7 +48,8 @@ const Minify = props => {
               </span>
               <span className="information-text">
                 Future steps will expand functionality to create a full drop-in
-                replacement Spotify desktop application.
+                replacement Spotify desktop application and to improve app
+                dynamics and feel.
               </span>
             </div>
           </div>

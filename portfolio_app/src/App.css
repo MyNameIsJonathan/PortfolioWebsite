@@ -177,26 +177,24 @@ h3.information {
 }
 
 .me-image {
-  display: block;
-  max-width: 100%;
+  max-width: 80%;
   border-radius: 10px;
+  justify-content: center;
 }
 
 .fec-gif {
-  display: block;
   width: 100%;
   border-radius: 10px;
 }
 
 .minify-gif {
-  grid-column-start: minify-col-1;
   height: 450px;
   border-radius: 10px;
 }
 
 .sdc-cpu-image {
-  border-radius: 10px;
   width: 100%;
+  border-radius: 10px;
 }
 
 .tab-information {
@@ -227,18 +225,7 @@ h3.information {
   font-size: 125%;
 }
 
-@media only screen and (max-width: 600px) {
-  .footer-contact-text.valign-wrapper {
-    display: none;
-  }
-  .tab-head-container {
-    width: 100%;
-  }
-
-  .tab-head {
-    justify-content: center;
-    width: 100%;
-  }
+@media only screen and (max-width: 993px) {
   .tab-body .collection .collection-item {
     padding: 5px;
   }

@@ -38,8 +38,9 @@ const NHL = props => {
                 This was my first major engineering project -- I love hockey and
                 wanted to try my hand at creating a daily interesting
                 statistic-reporting service. This site scrapes daily games,
-                scores, and players, reporting stats like most games since
-                scoring and longest assist drought for today's players.
+                scores, and players, reporting interesting stats for today's
+                players, i.e. most games since scoring and longest assist
+                drought per player.
               </span>
             </div>
             <div className="collection-item">
