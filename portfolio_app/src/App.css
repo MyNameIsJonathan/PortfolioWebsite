@@ -233,6 +233,14 @@ h3.information {
   .tab-information {
     margin-top: 2vh;
   }
+
+  .tab-head {
+    font-size: 5vw;
+  }
+
+  .navbar-name {
+    font-size: 5wv;
+  }
 }
 
 .sdc-pink {
