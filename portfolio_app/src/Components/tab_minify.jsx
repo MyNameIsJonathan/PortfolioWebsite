@@ -4,9 +4,18 @@ const Minify = props => {
   return (
     <div id="Minify" className="container tab-body">
       <div className="valign-wrapper tab-head-container">
-        <h3 className="tab-head valign-wrapper center-align spotify-green-background">
-          minify
-        </h3>
+        <a
+          href="https://github.com/MyNameIsJonathan/Minify"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3
+            className="tab-head valign-wrapper center-align spotify-green-background"
+            id="minify-link"
+          >
+            minify
+          </h3>
+        </a>
         <span className="subtitle spotify-green">a mini Spotify player</span>
       </div>
       <div className="left-image-container row">

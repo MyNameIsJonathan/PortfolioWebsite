@@ -4,9 +4,18 @@ const NHL = props => {
   return (
     <div id="NHL" className="container tab-body">
       <div className="valign-wrapper tab-head-container">
-        <h3 className="tab-head valign-wrapper center-align nhl-orange-background">
-          NHL
-        </h3>
+        <a
+          href="https://github.com/MyNameIsJonathan/NHL-Project"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3
+            className="tab-head valign-wrapper center-align nhl-orange-background"
+            id="nhl-link"
+          >
+            NHL
+          </h3>
+        </a>
         <span className="subtitle nhl-orange">
           a daily interesting statistics reporting site
         </span>

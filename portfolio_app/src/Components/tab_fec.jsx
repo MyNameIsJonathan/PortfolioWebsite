@@ -4,9 +4,18 @@ const FEC = props => {
   return (
     <div id="FEC" className="container tab-body">
       <div className="valign-wrapper tab-head-container">
-        <h3 className="tab-head valign-wrapper center-align fec-green-background">
-          music player
-        </h3>
+        <a
+          href="https://github.com/MyNameIsJonathan/5cloud"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3
+            className="tab-head valign-wrapper center-align fec-green-background"
+            id="fec-link"
+          >
+            music player
+          </h3>
+        </a>
         <span className="subtitle fec-green">
           a web-based music playback application
         </span>
