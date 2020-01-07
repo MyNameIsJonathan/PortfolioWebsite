@@ -17,6 +17,7 @@ h3.information {
   padding: 0 0 1.5vh 0;
   margin: 0;
   border-bottom: 2px solid;
+  text-align: center;
 }
 
 .navbar-name {
@@ -26,14 +27,6 @@ h3.information {
   text-align: center;
   font-size: 7vw;
   color: var(--light-blue);
-}
-
-.last-name {
-  background-color: var(--light-blue);
-  color: var(--black);
-  font-weight: 800;
-  padding: 1vh;
-  border-radius: 10px;
 }
 
 .tabs {
@@ -58,7 +51,7 @@ h3.information {
   height: fit-content;
   margin-bottom: 1em;
   display: block;
-  width: fit-content;
+  /* width: fit-content; */
   margin-bottom: 3vh;
 }
 
@@ -69,7 +62,8 @@ h3.information {
   color: var(--white);
   border-radius: 10px;
   padding: 1.5vh;
-  width: fit-content;
+  justify-content: center;
+  /* width: fit-content; */
 }
 
 .subtitle {
@@ -182,13 +176,9 @@ h3.information {
   justify-content: flex-start;
 }
 
-.me-container {
-  width: 270px;
-}
-
 .me-image {
   display: block;
-  width: 270px;
+  max-width: 100%;
   border-radius: 10px;
 }
 
@@ -201,13 +191,12 @@ h3.information {
 .minify-gif {
   grid-column-start: minify-col-1;
   height: 450px;
-  width: 270px;
   border-radius: 10px;
 }
 
 .sdc-cpu-image {
   border-radius: 10px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .tab-information {
@@ -268,11 +257,11 @@ h3.information {
 }
 
 .fec-green {
-  color: var(--fec-green);
+  color: var(--fec-gold);
 }
 
 .fec-green-background {
-  background-color: var(--fec-green);
+  background-color: var(--fec-gold);
 }
 
 .spotify-green-background {
