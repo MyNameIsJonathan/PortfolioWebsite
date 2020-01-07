@@ -27,7 +27,7 @@ const FEC = props => {
                 Technologies:
               </span>
               <span className="information-text">
-                React, Node.js, MySQL, AWS S3 Storage, Express.js
+                React, Node.js, MySQL, AWS EC2, AWS S3 Storage, Express.js
               </span>
             </div>
             <div className="collection-item">

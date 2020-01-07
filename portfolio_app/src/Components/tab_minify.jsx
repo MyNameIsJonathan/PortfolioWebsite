@@ -10,14 +10,14 @@ const Minify = props => {
         <span className="subtitle spotify-green">a mini Spotify player</span>
       </div>
       <div className="left-image-container row">
-        <div className="col s12 l4">
+        <div className="col s12 l5 center-align">
           <img
             className="minify-gif"
             src="./assets/Minify.gif"
             alt="GIF of minify, my mini spotify player application, in use"
           />
         </div>
-        <div className="tab-information col s12 l7 offset-l1">
+        <div className="tab-information col s12 l7">
           <h3 className="spotify-green information">information</h3>
           <div className="collection">
             <div className="collection-item">

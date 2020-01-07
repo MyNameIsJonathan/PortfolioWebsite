@@ -12,9 +12,7 @@ class Navbar extends React.Component {
       <header>
         <nav>
           <div className="valign-wrapper">
-            <h1 className="navbar-name center-align">
-              jonathan <span className="last-name">olson</span>
-            </h1>
+            <h1 className="navbar-name center-align">jonathan olson</h1>
           </div>
           <div className="row">
             <ul

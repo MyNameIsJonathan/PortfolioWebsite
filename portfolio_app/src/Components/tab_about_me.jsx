@@ -12,14 +12,14 @@ const AboutMe = props => {
         </span>
       </div>
       <div className="left-image-container row">
-        <div className="me-container col s12 l4">
+        <div className="col s12 l5 center-align">
           <img
             className="me-image"
             src="./assets/me.jpeg"
             alt="Me, wearing a suit, hands folded in a professional setting"
           />
         </div>
-        <div className="tab-information col s12 l7 offset-l1">
+        <div className="tab-information col s12 l7">
           <h3 className="about-me-blue information">jonathan/jay</h3>
           <div className="collection">
             <div className="collection-item">
