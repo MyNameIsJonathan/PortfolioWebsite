@@ -63,6 +63,7 @@ h3.information {
   border-radius: 10px;
   padding: 1.5vh;
   justify-content: center;
+  border: 2px solid transparent;
   /* width: fit-content; */
 }
 
@@ -246,35 +247,35 @@ h3.information {
 }
 
 .sdc-pink {
-  color: var(--sdc-pink);
+  color: rgba(var(--sdc-pink), 1);
 }
 
 .sdc-pink-background {
-  background-color: var(--sdc-pink);
+  background-color: rgba(var(--sdc-pink), 1);
 }
 
 .fec-green {
-  color: var(--fec-gold);
+  color: rgba(var(--fec-gold), 1);
 }
 
 .fec-green-background {
-  background-color: var(--fec-gold);
+  background-color: rgba(var(--fec-gold), 1);
 }
 
 .spotify-green-background {
-  background-color: var(--spotify-green);
+  background-color: rgba(var(--spotify-green), 1);
 }
 
 .spotify-green {
-  color: var(--spotify-green);
+  color: rgba(var(--spotify-green), 1);
 }
 
 .nhl-orange-background {
-  background-color: var(--nhl-orange);
+  background-color: rgba(var(--nhl-orange), 1);
 }
 
 .nhl-orange {
-  color: var(--nhl-orange);
+  color: rgba(var(--nhl-orange), 1);
 }
 
 .about-me-blue {
@@ -287,4 +288,48 @@ h3.information {
 
 #FEC {
   margin-bottom: 1vh;
+}
+
+#minify-link {
+  background-color: rgba(var(--spotify-green), 1);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+#minify-link:hover {
+  color: rgba(var(--spotify-green), 1);
+  background-color: rgba(var(--spotify-green), 0.15);
+  border: 2px solid rgba(var(--spotify-green), 1);
+}
+
+#nhl-link {
+  background-color: rgba(var(--nhl-orange), 1);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+#nhl-link:hover {
+  color: rgba(var(--nhl-orange), 1);
+  background-color: rgba(var(--nhl-orange), 0.15);
+  border: 2px solid rgba(var(--nhl-orange), 1);
+}
+
+#fec-link {
+  background-color: rgba(var(--fec-gold), 1);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+#fec-link:hover {
+  color: rgba(var(--fec-gold), 1);
+  background-color: rgba(rgba(var(--fec-gold), 0.1), 1);
+  border: 2px solid rgba(var(--fec-gold), 1);
+}
+
+#sdc-link {
+  background-color: rgba(var(--sdc-pink), 1);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+#sdc-link:hover {
+  color: rgba(var(--sdc-pink), 1);
+  background-color: rgba(var(--sdc-pink), 0.15);
+  border: 2px solid rgba(var(--sdc-pink), 1);
 }

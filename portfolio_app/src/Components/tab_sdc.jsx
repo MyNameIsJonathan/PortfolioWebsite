@@ -4,9 +4,18 @@ const SDC = props => {
   return (
     <div id="SDC" className="container tab-body">
       <div className="valign-wrapper tab-head-container">
-        <h3 className="tab-head valign-wrapper center-align sdc-pink-background">
-          micro
-        </h3>
+        <a
+          href="https://github.com/AirCloudy/playbar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3
+            className="tab-head valign-wrapper center-align sdc-pink-background"
+            id="sdc-link"
+          >
+            micro
+          </h3>
+        </a>
         <span className="subtitle sdc-pink">
           a highly-scaled micro microservice
         </span>
