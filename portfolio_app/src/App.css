@@ -233,7 +233,9 @@ h3.information {
   .tab-information {
     margin-top: 2vh;
   }
+}
 
+@media only screen and (min-width: 993px) {
   .tab-head {
     font-size: 5vw;
   }
