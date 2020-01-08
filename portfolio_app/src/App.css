@@ -319,7 +319,7 @@ h3.information {
 
 #fec-link:hover {
   color: rgba(var(--fec-gold), 1);
-  background-color: rgba(rgba(var(--fec-gold), 0.1), 1);
+  background-color: rgba(var(--fec-gold), 0.15);
   border: 2px solid rgba(var(--fec-gold), 1);
 }
 
