@@ -22,11 +22,17 @@ const NHL = props => {
       </div>
       <div className="left-image-container row">
         <div className="col s12 l5 center-align">
-          <img
-            className="sdc-cpu-image"
-            src="./assets/hockey.png"
-            alt="Server CPU utilization across a client load gradient"
-          />
+          <a
+            href="https://jonathanolson.us"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="sdc-cpu-image"
+              src="./assets/hockey.png"
+              alt="Server CPU utilization across a client load gradient"
+            />
+          </a>
         </div>
         <div className="tab-information col s12 l7">
           <h3 className="nhl-orange information">information</h3>
