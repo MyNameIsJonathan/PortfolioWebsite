@@ -44,10 +44,16 @@ const FEC = props => {
                 Inspiration:
               </span>
               <span className="information-text≈border">
-                I wanted to test my scaling horizontal scaling abilities, so I
-                expanded my Cassandra/Scylla node cluster to 10 nodes, as well
-                as my Express server infrastructure to 4 servers, behind a
-                heavily-configured NGINX load balancer
+                I've loved music for as long as I can remember, from my garage
+                band in middle school to now building music playback
+                applications. I built this web app for two reasons: 1 - I hadn't
+                yet worked with media playback and though this project would be
+                an excellent foray into a new subgenre (pun intended) of
+                engineering and 2 - I just wanted to build something that I
+                enjoy using before it's even finished. I loved building this app
+                because of the technical challenges it led me to overcome and
+                because once I created initial functionality, it became my
+                playback app of choice.
               </span>
             </div>
             <div className="collection-item">
@@ -55,12 +61,13 @@ const FEC = props => {
                 Future Steps:
               </span>
               <span className="information-text">
-                Further work could easily scale vertically (upgrade instances)
-                or horizontally via Cassandra node count increase or server
-                count increase. Request load/duration could be lightened via
-                increased use of compression, further load balancing
-                optimizations, or distributing nodes/serves across different AWS
-                regions.
+                Next steps could include expanding song selection (the initial
+                application only included 100 songs), adding music toggling
+                abilities i.e., searching for other songs, creating and
+                modifying playlists, etc., and ameliorating network usage, as
+                the volume of data sent between the client and server could
+                likely be condensed even further to allow faster load times and
+                better user experience.
               </span>
             </div>
           </div>
