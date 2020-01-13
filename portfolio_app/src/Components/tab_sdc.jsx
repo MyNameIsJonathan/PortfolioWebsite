@@ -17,7 +17,7 @@ const SDC = props => {
           </h3>
         </a>
         <span className="subtitle sdc-pink">
-          a highly-scaled micro microservice
+          a highly-scaled backend microservice
         </span>
       </div>
       <div className="left-image-container row">
@@ -47,7 +47,7 @@ const SDC = props => {
                 I wanted to test my scaling horizontal scaling abilities, so I
                 expanded my Cassandra/Scylla node cluster to 10 nodes, as well
                 as my Express server infrastructure to 4 servers, behind a
-                heavily-configured NGINX load balancer
+                heavily-configured NGINX load balancer.
               </span>
             </div>
             <div className="collection-item">

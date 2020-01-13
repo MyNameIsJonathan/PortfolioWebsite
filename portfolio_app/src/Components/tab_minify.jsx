@@ -47,8 +47,9 @@ const Minify = props => {
                 remember but could never find one -- so I buit it. This app
                 allows users to control playback (play, pause, skip, jump back,
                 scrub, save song to library, toggle repeat) and search Spotify
-                for songs, albums, artists, and playlists and was packaged via
-                Electron.js for distribution.
+                for songs, albums, artists, and playlists. Built in ES6
+                Javascript and React, I packaged the app into an OSX application
+                using Electron.js.
               </span>
             </div>
             <div className="collection-item">
@@ -61,6 +62,31 @@ const Minify = props => {
                 dynamics and feel.
               </span>
             </div>
+          </div>
+          <div id="download-minify-container">
+            <a
+              href="assets/Minify-1.0.0.dmg"
+              download="Minify.dmg"
+              id="download-minify"
+            >
+              {/* <a className="waves-effect waves-light btn-small">
+                <i className="material-icons left">cloud</i>
+                button
+              </a> */}
+              <button
+                id="download-minify"
+                className="waves-effect waves-light btn"
+                type="button"
+              >
+                {/* <img
+                  src="assets/download.png"
+                  alt="Download"
+                  id="download-icon"
+                /> */}
+                <p className="download-text">Download Minify</p>
+              </button>
+            </a>
+            <p id="download-size">File Size: 63.5 MB</p>
           </div>
         </div>
       </div>
