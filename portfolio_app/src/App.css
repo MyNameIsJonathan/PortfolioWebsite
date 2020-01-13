@@ -279,20 +279,31 @@ h3.information {
 }
 
 .about-me-blue {
-  color: var(--about-me-blue);
+  color: rgba(var(--about-me-blue), 1);
 }
 
 .about-me-blue-background {
-  background-color: var(--about-me-blue);
+  background-color: rgba(var(--about-me-blue), 1);
 }
 
 #FEC {
   margin-bottom: 1vh;
 }
 
+#about-me-link {
+  background-color: rgba(var(--about-me-blue), 1);
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+#about-me-link:hover {
+  color: rgba(var(--about-me-blue), 1);
+  background-color: rgba(var(--about-me-blue), 0.15);
+  border: 2px solid rgba(var(--about-me-blue), 1);
+}
+
 #minify-link {
   background-color: rgba(var(--spotify-green), 1);
-  transition: background-color 0.35s ease, color 0.35s ease;
+  transition: background-color 0.1s ease, color 0.1s ease;
 }
 
 #minify-link:hover {
@@ -303,7 +314,7 @@ h3.information {
 
 #nhl-link {
   background-color: rgba(var(--nhl-orange), 1);
-  transition: background-color 0.35s ease, color 0.35s ease;
+  transition: background-color 0.1s ease, color 0.1s ease;
 }
 
 #nhl-link:hover {
@@ -314,7 +325,7 @@ h3.information {
 
 #fec-link {
   background-color: rgba(var(--fec-gold), 1);
-  transition: background-color 0.35s ease, color 0.35s ease;
+  transition: background-color 0.1s ease, color 0.1s ease;
 }
 
 #fec-link:hover {
@@ -325,11 +336,37 @@ h3.information {
 
 #sdc-link {
   background-color: rgba(var(--sdc-pink), 1);
-  transition: background-color 0.35s ease, color 0.35s ease;
+  transition: background-color 0.1s ease, color 0.1s ease;
 }
 
 #sdc-link:hover {
   color: rgba(var(--sdc-pink), 1);
   background-color: rgba(var(--sdc-pink), 0.15);
   border: 2px solid rgba(var(--sdc-pink), 1);
+}
+
+#download-minify {
+  color: var(--white);
+  background-color: rgba(var(--spotify-green), 1);
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 55%;
+}
+
+#download-icon {
+  margin: 0 10px 0 0;
+  top: 5px;
+  fill: var(--white);
+}
+
+#download-size {
+  font-size: 1rem;
+  color: var(--grey);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.download-text {
+  display: inline;
+  font-size: 2em;
 }

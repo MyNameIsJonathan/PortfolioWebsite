@@ -4,9 +4,18 @@ const AboutMe = props => {
   return (
     <div id="aboutMe" className="container tab-body">
       <div className="valign-wrapper tab-head-container">
-        <h3 className="tab-head valign-wrapper center-align about-me-blue-background">
-          about me
-        </h3>
+        <a
+          href="https://www.linkedin.com/in/jonathan-h-olson/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3
+            className="tab-head valign-wrapper center-align about-me-blue-background"
+            id="about-me-link"
+          >
+            about me
+          </h3>
+        </a>
         <span className="subtitle about-me-blue">
           full stack software engineer
         </span>
@@ -29,7 +38,7 @@ const AboutMe = props => {
               <span className="information-text">
                 I grew up in the service industry, spent time working in
                 biochemical research, and have been learning software
-                engineering for just over two years
+                engineering for just over two years.
               </span>
             </div>
             <div className="collection-item">
@@ -38,7 +47,10 @@ const AboutMe = props => {
               </span>
               <span className="information-text≈border">
                 I love playing hockey, making (and drinking) coffee, playing the
-                drums, woodworking, playing board games, and going to the beach
+                drums, woodworking, playing board games, and going to the beach.
+                With experience across the stack, I love everything from scaling
+                backend infrastructures on AWS and GCP to heavily optimizing
+                React state updates/re-rendering.
               </span>
             </div>
             <div className="collection-item">
@@ -47,6 +59,8 @@ const AboutMe = props => {
               </span>
               <span className="information-text">
                 I want to start my own sofware company within the next 10 years
+                and am looking for a fast-paced team tackling complex
+                engineering challenges, while emphasizing personal growth.
               </span>
             </div>
           </div>
