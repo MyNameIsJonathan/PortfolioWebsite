@@ -57,9 +57,9 @@ const Minify = props => {
                 Future Steps:
               </span>
               <span className="information-text">
-                Future steps will expand functionality to create a full drop-in
-                replacement Spotify desktop application and to improve app
-                dynamics and feel.
+                I will continually expand functionality to create a full drop-in
+                replacement Spotify desktop application, while continuing to
+                iterate on app dynamics and feel.
               </span>
             </div>
           </div>
